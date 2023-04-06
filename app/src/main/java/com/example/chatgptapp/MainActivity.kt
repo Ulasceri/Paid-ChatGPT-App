@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
     fun getResponse(question: String, callback: (String) -> Unit){
-        val apiKey="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"
+        val apiKey="Api keyinizi buraya girmelisiniz"
         val url="https://api.openai.com/v1/engines/text-davinci-003/completions"
 
         val requestBody="""
